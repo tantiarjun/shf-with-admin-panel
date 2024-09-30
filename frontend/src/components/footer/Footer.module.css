@@ -1,0 +1,157 @@
+.footerContainer{
+  background-color:rgba(72, 48, 129, 1);
+  padding: 50px 15px;
+  overflow-x: hidden;   
+}
+
+@media (max-width:768px) {
+  .footerContainer{
+      background-color:rgba(72, 48, 129, 1);
+      display: flex;
+      justify-content: center;
+      padding-bottom: 50px;
+  }    
+}
+
+.bgContainer{
+  padding-top: 40px;
+  margin-bottom: 50px;
+}
+
+.logo{
+  background-color:rgba(255, 255, 255, 1);
+  padding: 0px 40px 0px 30px;
+}
+
+@media (min-width:768px) {
+
+  .imageContainer{
+      margin-top: 5px;
+  }
+  .logoLinkContainer{
+      display: flex;
+      justify-content: space-around;
+      
+  } 
+
+  .QuickLinkAndGetTouchContainer{
+      margin-left: 30px;
+  }
+
+  .subscribeusContainer{
+      margin-left: 30px;
+  }  
+}
+
+
+
+.QuickLinkAndGetTouchContainer{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;    
+}
+
+
+.quickLinkContainer{
+  margin-top: 15px;
+}
+
+.qucikLinkHeading{
+  color: aliceblue;
+  font-weight: 700;
+  font-size: 1rem;
+  font-family: "Playfair Display";
+}
+
+.qucikLinks{
+  color:rgba(175, 175, 175, 1);
+  font-family: "Inter";
+  font-size: 0.9rem;
+  margin-top: 10px;
+  
+}
+
+.addressContainer{
+  margin-top: 30px;
+}
+
+@media (min-width:1280) {
+  .qucikLinks{
+      width: 50%;
+  }
+
+  .addressContainer{
+      width: 130px !important;
+  }    
+}
+
+.subscribeusContainer{
+  margin-top: 30px;
+
+}
+
+.emailInputBox{
+  padding: 5px;
+  margin-top: 10px;
+}
+
+.subscribeBtn{
+  background-color:rgba(244, 145, 31, 1);
+  color:rgba(255, 255, 255, 1);
+  padding: 5px 15px 5px 15px ;
+  margin-top: 10px;
+  font-size: 1rem;
+}
+
+.mailPara{
+  color: aliceblue;
+  font-size: 0.9rem;
+  margin-left: 5px;
+  margin-top: 10px;
+}
+
+
+
+@media (min-width:768px) {
+
+  .bgContainer{
+      padding-left: 30px;
+      padding-right: 30px;
+
+  }
+
+  .QuickLinkAndGetTouchContainer{
+      margin-top: 0px !important;
+  }
+
+  .quickLinkContainer{
+      margin-top: 0px;
+      width: 100% !important;
+  }
+
+  .addressContainer{
+      margin-top:0px;
+  }
+
+  .subscribeusContainer{
+      margin-top:0px;
+      width: 90% !important	;
+  }
+
+}
+
+.horizontal{
+  border: none;
+  height: 1px;
+  background-color: rgba(69, 69, 69, 1);
+  width: 90%;
+  margin: 0 auto;   
+}
+
+.beenait{
+  color:rgba(136, 136, 136, 1);
+  text-align: center;
+  margin-top: 20px;
+  font-size: 14px;
+  
+}

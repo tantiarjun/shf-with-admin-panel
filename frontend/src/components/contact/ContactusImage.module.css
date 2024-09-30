@@ -1,0 +1,17 @@
+.girlImage{
+    height: 300px;
+    width: 300px;
+    border-bottom-right-radius: 120px;   
+    margin-top: 19px;
+}
+
+@media (min-width:992px) {
+    .girlImage{
+        /* width:55%; */
+        height: 350px;
+        width: 350px;
+        margin-left: 30px; 
+        /* border-bottom-right-radius: 140px;    */
+        border-radius: 0px 0px 140px 0px;
+    }
+}

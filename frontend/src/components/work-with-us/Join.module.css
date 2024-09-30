@@ -1,0 +1,132 @@
+.bgContainer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+.mainContainer{
+    max-width:1200px;
+    
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:  "Playfair Display", serif;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+
+.paragraph{
+    font-size: 0.9rem;
+    font-weight: 400;
+    font-family:  "Inter", serif;
+    margin-right: 15px;
+    width:350px;
+    padding-left: 40px;
+}
+
+.viewBtn{
+    background-color:  #F4911F;
+    color: #fff;
+    padding: 7px 30px;
+    margin-left: 38px;
+    margin-top: 20px;
+}
+
+.imageContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.topImg{
+position: absolute;
+width: 50px;
+top: -15px;
+right: 15px;
+}
+
+.houseImg1{
+    position: absolute;
+    top: 190px;
+    right: -10px;
+    width: 110px;
+    background-color: #FEF2E4;
+    padding: 7px;
+    border-radius: 50px;
+    
+}
+
+.houseImg2{
+    position: absolute;
+    bottom: -20px;
+    right: 100px;
+    width: 70px;
+    background-color: #FEF2E4;
+    padding: 7px;
+    border-radius: 50px;
+}
+
+.bottomImg{
+    position: absolute;
+    width: 100px;
+    bottom: -110px;
+    right: -40px;
+}
+
+.image{
+    width:300px;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.teamDesign{
+    width: 70px;
+    position: absolute;
+    top: 115px;
+    right: 38px;
+}
+
+@media screen and (max-width:768px) {
+    .image{
+        margin-top: 50px;
+        width:270px;
+    }
+
+    .teamDesign{
+        width: 70px;
+        position: absolute;
+        top: 45px;
+        right: 35px;
+    }
+
+    .topImg{
+        position: absolute;
+        width: 50px;
+        top: 25px;
+        right: 20px;
+        }
+        .bottomImg{
+            position: absolute;
+            width: 100px;
+            bottom: -120px;
+            right: -5px;
+        }
+        .houseImg1{
+            position: absolute;
+            top: 230px;
+            right: 10px;
+            width: 90px;
+            background-color: #FEF2E4;
+            padding: 8px;
+            border-radius: 50px;
+            
+        }
+}

@@ -1,0 +1,77 @@
+
+.heading{
+    color:rgba(244, 145, 31, 1);
+    font-weight: 700;
+    font-size: 5.1vmin;
+    font-family: "Playfair Display", serif;
+}
+
+.para{
+    font-family: "Inter", sans-serif;
+    margin-top: 10px;
+    font-weight: 400;
+    font-size: 3vmin;
+    width: 93%;
+
+}
+
+.nameContainer{
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.fieldName{
+    font-family: "Inter", sans-serif;
+    font-weight: 500;
+    font-size: 11px;
+    margin-left: 8px;
+    margin-top: 3px;
+    color:rgba(37, 42, 52, 1);
+    
+}
+
+.nameInput{
+    border:1px solid rgba(175, 175, 175, 1) ;
+    height: 30px;
+    width: 100%;
+    padding: 7px;
+}
+
+@media (max-width:576px) {
+    .nameInput{
+        width: 90%;
+    }
+}
+
+@media (min-width:768px) {
+    .nameInput{
+        width: 90%;
+    }
+    .heading{
+        font-size:3.1vmin;
+    }
+
+    .para{
+        font-size: 1.7vmin;
+    }
+    
+}
+.horizontalInputContainer{
+    display: flex;
+    justify-content: space-between;
+}
+
+.messageInput{
+    border:1px solid rgba(175, 175, 175, 1) ;
+    width: 100%;
+    padding: 7px;
+}
+
+.submitBtn{
+    background-color:rgba(244, 145, 31, 1);
+    color: white;
+    width: 100%;
+    padding: 8px 0px;
+    margin-top: 10px;
+}

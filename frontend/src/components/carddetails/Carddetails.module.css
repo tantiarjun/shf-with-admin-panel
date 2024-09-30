@@ -1,0 +1,95 @@
+.bgContainer{
+    display: flex;
+    justify-content: center;
+    margin: 150px 0px;
+}
+
+.heading{
+    font-size: 1.2rem;
+    font-weight: 600;
+    color:#F4911F;
+}
+
+.nameCardContainer{
+    width: 100%;
+}
+.expiryCVVContainer{
+    width: 60%;
+    margin-left: 10px;
+}
+
+.inputName{
+    color:#252A34;   
+}
+
+.nameInputField{
+    border:  1px solid #AFAFAF;
+    display: block;
+    height: 32px;
+    padding: 5px;
+    width: 100%;
+}
+
+.buttonContainer{
+    display: flex;
+    justify-content:space-between;
+    margin-top: 20px;
+}
+
+.cancelBtn{
+    border: 1px solid #F4911F;
+    padding: 8px 40px;
+    border-radius: 3px;
+    color: white;
+    width: 80%;
+    margin-right: 20px;
+    color: #F4911F;
+}
+
+.submitBtn{
+    border: 1px solid #F4911F;
+    padding: 8px 40px;
+    background-color:#F4911F ;
+    border-radius: 3px;
+    color: white;
+    width: 80%;
+    margin-right: 20px;
+}
+
+@media (max-width:768px) {
+    
+    .expiryCVVContainer{
+        width: 60%;
+        margin-left: 0px;
+    }
+
+    .cardConatiner{
+        width:90%;
+    }
+    
+}
+
+
+
+@media (min-width:768px) {
+
+    .expiryCVVContainer{
+        width: 40%;
+        margin-left: 15px;
+    }
+    .buttonContainer{
+        display: flex;
+        justify-content:space-between;
+        margin-top: 20px;
+        width: auto;
+    } 
+
+    .cardConatiner{
+        max-width:992px;
+    }
+
+    .formContainer{
+        margin-left: 40px;
+    }
+    
+}

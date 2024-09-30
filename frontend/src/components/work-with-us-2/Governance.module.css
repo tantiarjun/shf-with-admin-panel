@@ -1,0 +1,80 @@
+.bgContainer{
+    display: flex;
+    justify-content:center;
+    margin-top:4rem;
+    overflow:hidden;
+}
+.mainContainer{
+    max-width:992px;   
+}
+.heading{
+    font-size: 2rem;
+    font-weight: 700;
+    font-family:  "Playfair Display", serif;
+    text-align: center;
+    padding-right: 45px;
+}
+.paragraph{
+    font-size: 0.75rem;
+    font-weight: 400;
+    font-family:  "Inter", serif;
+    margin-right: 15px;
+    width:350px;
+    padding-left: 40px;
+    margin-top: 10px;
+}
+
+
+.imageContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.image{
+    width:250px;
+    z-index: 1;   
+}
+
+.bgColor{
+    background-color:#FEF2E4;
+    padding: 100px 150px 165px 100px;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+    border-bottom-left-radius: 100px;
+}
+
+.textContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.arrowImage{
+    width: 170px;
+    position: relative;
+    top: -10px;
+    left: 70px;
+}
+
+@media screen and (max-width:768px) {
+    .image{
+        margin-top: 50px;
+        width:270px;
+    }
+
+    .arrowImage{
+        display: none;
+    }
+
+    .bgColor{
+        background-color:#FEF2E4;
+        padding: 100px 150px 165px 100px;
+        position: absolute;
+        top: 90px;
+        left: 25px;
+        border-bottom-left-radius: 100px;
+    }
+    
+}
